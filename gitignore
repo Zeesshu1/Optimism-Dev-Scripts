@@ -34,4 +34,4 @@ __pycache__
 # Critical: Keep private variables and API keys off GitHub
 .env
 .env.local
-*.secr
+*.se
