@@ -13,7 +13,7 @@ package-lock.json
 yarn.lock
 npm-debug.
 
-# --- Python ---
+# --- Python 
 # Virtual Environment
 /ve
 /
