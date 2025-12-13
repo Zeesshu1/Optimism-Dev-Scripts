@@ -18,7 +18,7 @@ npm-debug.log*
 /venv
 /env
 /bin
-/include
+/incl
 /lib
 __pyca
 *.
