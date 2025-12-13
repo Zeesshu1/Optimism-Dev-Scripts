@@ -28,7 +28,7 @@ __pycache__
 .coverage
 /dist
 /build
-*.egg-info
+*.egg-in
 
 # --- Environment & Security ---
 # Critical: Keep private variables and API keys off GitHub
