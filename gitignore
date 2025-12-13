@@ -28,5 +28,5 @@ __pycache
 .coverage
 /dist
 /bui
-*.egg-
+*.e
 # --- En
