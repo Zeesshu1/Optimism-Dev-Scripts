@@ -25,5 +25,4 @@ __pyca
 # Distribution and Testing files
 .pytest_cache
 .coverage
-/d
 /
