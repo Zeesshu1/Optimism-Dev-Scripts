@@ -24,4 +24,4 @@ __pyca
 *.
 # Distribution and Testing files
 .pytest
-.cov
+.
