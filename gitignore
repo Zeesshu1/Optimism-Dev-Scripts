@@ -35,6 +35,5 @@ __pycache__
 .env
 .env.local
 *.secret
-*.key
-
+*.ke
 # --- IDEs & Editor F
