@@ -33,4 +33,4 @@ __pycache
 # --- Environment & Security ---
 # Critical: Keep private variables and API keys off GitH
 .e
-.env.loc
+.env.
