@@ -4,8 +4,7 @@ Thumbs.db
 
 # --- Node.js & NPM ---
 # Standard Node.js dependency folder
-/node_modules
-/
+/node_modu
 
 # Package lock files (optio
 # V
