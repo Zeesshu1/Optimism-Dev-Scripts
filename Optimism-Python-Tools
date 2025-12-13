@@ -1,0 +1,54 @@
+# scripts/read_op_data.py
+
+import os
+from web3 import Web3
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# --- Configuration ---
+# Get the Optimism RPC URL from environment variables
+OP_RPC_URL = os.getenv("OP_RPC_URL")
+
+# Address to check (example: a known Optimism contract or your own address)
+# Replace with a valid Optimism address
+TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optimism OVM_ETH token address
+
+def main():
+    if not OP_RPC_URL:
+        print("Error: OP_RPC_URL not found in .env file.")
+        return
+
+    # 1. Connect to Optimism Mainnet
+    try:
+        w3 = Web3(Web3.HTTPProvider(OP_RPC_URL))
+    except Exception as e:
+        print(f"Error connecting to RPC: {e}")
+        return
+
+    if w3.is_connected():
+        print("✅ Successfully connected to Optimism Mainnet!")
+    else:
+        print("❌ Failed to connect to Optimism Mainnet.")
+        return
+
+    # 2. Get the latest block number
+    latest_block = w3.eth.block_number
+    print(f"Latest Block Number on Optimism: {latest_block}")
+    
+    # 3. Get ETH Balance of the target address
+    try:
+        balance_wei = w3.eth.get_balance(TARGET_ADDRESS)
+        # Convert balance from Wei to Ether
+        balance_eth = w3.from_wei(balance_wei, 'ether')
+        
+        print(f"\nTarget Address: {TARGET_ADDRESS}")
+        print(f"ETH Balance: {balance_eth} OP-ETH")
+        
+    except Exception as e:
+        print(f"Error reading balance: {e}")
+
+
+if __name__ == "__main__":
+    main()
