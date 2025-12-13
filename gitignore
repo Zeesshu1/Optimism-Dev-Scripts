@@ -1,1 +1,48 @@
-l# --- General Operating
+# --- General Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Node.js & NPM ---
+# Standard Node.js dependency folder
+/node_modules
+/dist
+/build
+
+# Package lock files (optional, depending on preference)
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# --- Python ---
+# Virtual Environment
+/venv
+/env
+/bin
+/include
+/lib
+__pycache__
+*.pyc
+
+# Distribution and Testing files
+.pytest_cache
+.coverage
+/dist
+/build
+*.egg-info
+
+# --- Environment & Security ---
+# Critical: Keep private variables and API keys off GitHub
+.env
+.env.local
+*.secret
+*.key
+
+# --- IDEs & Editor Files ---
+# VS Code
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+
+# Custom logs
+*.log
