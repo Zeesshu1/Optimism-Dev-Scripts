@@ -26,4 +26,4 @@ __pycache
 .pytest_cache
 .coverage
 /dist
-/bui
+/
