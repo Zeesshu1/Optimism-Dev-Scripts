@@ -30,5 +30,5 @@ __pycache
 /build
 *.egg-in
 
-# --- Environment & Security ---
+# --- Environment & Securit
 # Critical: Keep priv
