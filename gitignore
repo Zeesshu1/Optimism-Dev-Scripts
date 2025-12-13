@@ -31,6 +31,6 @@ __pycache
 *.egg-in
 
 # --- Environment & Security ---
-# Critical: Keep private variables and API keys off Gi
+# Critical: Keep private variables and API keys off 
 .e
 .e
