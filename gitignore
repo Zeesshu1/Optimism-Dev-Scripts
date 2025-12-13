@@ -8,7 +8,7 @@ Thumbs.db
 /dist
 /build
 
-# Package lock files (optional, depending on preference)
+# Package lock files (optional, depending on preferen
 package-lock.json
 yarn.lock
 npm-debug.
