@@ -27,5 +27,4 @@ __pycache
 .coverage
 /dist
 /bui
-*.e
-#
+*.
