@@ -28,7 +28,6 @@ __pycache
 .coverage
 /dist
 /build
-*.egg-in
-
+*.egg-
 # --- Environment & Securit
 # Critical:
