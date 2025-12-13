@@ -33,4 +33,4 @@ __pycache__
 # --- Environment & Security ---
 # Critical: Keep private variables and API keys off GitHub
 .env
-.env.local
+.env.loc
