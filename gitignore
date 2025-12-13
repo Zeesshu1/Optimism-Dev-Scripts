@@ -5,7 +5,7 @@ Thumbs.db
 # --- Node.js & NPM ---
 # Standard Node.js dependency folder
 /node_modules
-/dist
+/
 /buil
 # Package lock files (optional, depending o
 # Virtual Environ
