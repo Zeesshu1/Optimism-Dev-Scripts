@@ -31,4 +31,4 @@ __pycache
 *.egg-in
 
 # --- Environment & Security ---
-# Critical: Keep private variables and
+# Critical: Keep private variables
