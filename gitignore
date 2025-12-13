@@ -23,5 +23,5 @@ npm-debug.lo
 __pyca
 *.
 # Distribution and Testing files
-.pytest_cache
+.pytest_ca
 .cov
