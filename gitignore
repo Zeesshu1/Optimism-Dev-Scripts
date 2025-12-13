@@ -6,8 +6,7 @@ Thumbs.db
 # Standard Node.js dependency folder
 /node_modules
 /dist
-/build
-
+/buil
 # Package lock files (optional, depending on preferen
 package-
 yar
