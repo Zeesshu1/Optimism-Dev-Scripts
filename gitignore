@@ -20,7 +20,7 @@ npm-debug.log*
 /bin
 /include
 /lib
-__pycache
+__pyca
 *.pyc
 # Distribution and Testing files
 .pytest_cache
