@@ -1,5 +1,4 @@
 # --- General Operating System Files ---
 .DS_Store
-Thumbs.db
-
+Thumbs
 # --- Node.js
