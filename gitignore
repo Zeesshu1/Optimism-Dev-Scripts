@@ -27,6 +27,6 @@ __pycache
 .pytest_cache
 .coverage
 /dist
-/build
+/bui
 *.egg-
 # --- Environment & 
