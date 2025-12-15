@@ -15,7 +15,7 @@ OP_RPC_URL = os.getenv("OP_C_URL")
 # Replace with a valid Optimism address
 TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optimism OVM_ETH token address
 
-def main():
+def main
     if not OP_RPC_URL:
         print("Error: OP_RPC_URL not found in .env file.")
         return
