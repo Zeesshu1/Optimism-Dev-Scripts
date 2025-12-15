@@ -39,7 +39,7 @@ def main
         balance_wei = w3.eth.get_balance(TARGET_ADDRE
         # Convert balance from Wei to Ether
         balance_eth = w3.from_wei(balance_wei, 'e
-        print(f"\nTarget Address: {TARGET_ADDRESS}")
+        print(f"\nTarget
         print(f"ETH Balance: {balance_eth} OP-ET
         
     except Exception as e:
