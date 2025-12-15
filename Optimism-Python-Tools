@@ -14,18 +14,4 @@ OP_RPC_URL = os.getenv("OP_C_URL")
 # Address to check (example: a known Optimism contract or your own address)
 # Replace with a valid Optimism address
 TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optsm OVM_ETH token addre
-def main
-    if not OP_RPC_U
-        print("Error: OP_RPC_URL not fouin .env file.")
-        return
-
-    # 1. Connect to Optimism Mainnet
-    try:
-        w3 = Web3(Web3.HTTPProvider(OP_RPC_URL
-    except Exception as e:
-        print(f"Error connecting to RPC: {e}")
-        return
-
-    if w3.is_connected():
-        print("✅ Successfully connected to Optimism Mainnet!")
-    else:
+de
