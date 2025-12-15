@@ -37,7 +37,6 @@ def main
     # 3. Get ETH Balance of the targe
     try:
         balance_wei = w3.eth.get_balance(TARGET_ADDRE
-        # Convert balance from Wei to Ether
-        balance_eth = w3.from_wei(balance_wei, 'e
+    
 
     
