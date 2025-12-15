@@ -30,7 +30,7 @@ def main
     if w3.is_connected():
         print("✅ Successfully connected to Optimism Mainnet!")
     else:
-        print("❌ Failed to connect to Optimism Mainnet.")
+        print("❌ Failed to connect to Optimism Mainnet.
         return
 
     # 2. Get the latest block number
