@@ -12,6 +12,4 @@ load_dotenv()
 OP_RPC_URL = os.getenv("OP_C_URL")
 
 # Address to check (example: a known Optimism contract or your own address)
-# Replace with a valid Optimism address
-TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optsm OVM_ETH token addre
-de
+# Replace with a valid Optimism addres
