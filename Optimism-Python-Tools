@@ -22,7 +22,7 @@ def main
 
     # 1. Connect to Optimism Mainnet
     try:
-        w3 = Web3(Web3.HTTPProvider(OP_RPC_URL))
+        w3 = Web3(Web3.HTTPProvider(OP_RPC_URL
     except Exception as e:
         print(f"Error connecting to RPC: {e}")
         return
