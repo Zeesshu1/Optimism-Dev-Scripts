@@ -16,7 +16,7 @@ OP_RPC_URL = os.getenv("OP_C_URL")
 TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optsm OVM_ETH token address
 
 def main
-    if not OP_RPC_URL:
+    if not OP_RPC_U
         print("Error: OP_RPC_URL not fouin .env file.")
         return
 
