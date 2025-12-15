@@ -40,7 +40,4 @@ def main
         # Convert balance from Wei to Ether
         balance_eth = w3.from_wei(balance_wei, 'e
 
-        print(f"Error reading balance: {e
-
-if __na == "__main__":
-    main()
+    
