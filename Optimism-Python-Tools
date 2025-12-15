@@ -39,7 +39,7 @@ def main
     
     # 3. Get ETH Balance of the target addr
     try:
-        balance_wei = w3.eth.get_balance(TARGET_ADDRESS)
+        balance_wei = w3.eth.get_balance(TARGET_ADDRE
         # Convert balance from Wei to Ether
         balance_eth = w3.from_wei(balance_wei, 'ether')
         print(f"\nTarget Address: {TARGET_ADDRESS}")
