@@ -17,7 +17,7 @@ TARGET_ADDRESS = "0x4200000000000000000000000000000000000042" # Optsm OVM_ETH to
 
 def main
     if not OP_RPC_URL:
-        print("Error: OP_RPC_URL not found in .env file.")
+        print("Error: OP_RPC_URL not fouin .env file.")
         return
 
     # 1. Connect to Optimism Mainnet
