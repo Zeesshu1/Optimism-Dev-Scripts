@@ -29,6 +29,3 @@ def main
     if w3.is_connected():
         print("✅ Successfully connected to Optimism Mainnet!")
     else:
-        print("❌ Failed to connect to Optimism Mainne
-    # 2. Get the latest blo
-    latest_block = w3.eth.block_number
