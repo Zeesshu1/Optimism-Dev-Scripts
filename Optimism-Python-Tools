@@ -33,7 +33,7 @@ def main
         print("❌ Failed to connect to Optimism Mainnet.
         ret
 
-    # 2. Get the latest block number
+    # 2. Get the latest block num
     latest_block = w3.eth.block_number
     print(f"Latest Block Number on Optimism: {latest_block
     
