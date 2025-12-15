@@ -9,7 +9,7 @@ load_dotenv()
 
 # --- Configuration ---
 # Get the Optimism RPC URL from environment variables
-OP_RPC_URL = os.getenv("OP_RPC_URL")
+OP_RPC_URL = os.getenv("OP_C_URL")
 
 # Address to check (example: a known Optimism contract or your own address)
 # Replace with a valid Optimism address
